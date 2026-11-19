@@ -86,6 +86,8 @@ CONFIG_PACKAGE_urandom-seed=y
 CONFIG_PACKAGE_usign=y
 CONFIG_PACKAGE_wpad-basic-mbedtls=y
 CONFIG_PACKAGE_zlib=y
+CONFIG_PACKAGE_oxidns=y
+CONFIG_PACKAGE_luci-app-oxidns=y
 # 纯净版不包含的包
 # CONFIG_PACKAGE_luci-app-aria2 is not set
 # CONFIG_PACKAGE_luci-app-transmission is not set
