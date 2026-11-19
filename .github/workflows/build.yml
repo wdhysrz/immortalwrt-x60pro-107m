@@ -6,7 +6,7 @@ on:
       version:
         description: 'ImmortalWrt version'
         required: true
-        default: 'openwrt-25.12'
+        default: 'owrt'
 
 env:
   DEVICE_NAME: ruijie_rg-x60-pro-107m
@@ -34,7 +34,7 @@ jobs:
 
       - name: Clone ImmortalWrt source
         run: |
-          git clone --depth 1 -b ${{ github.event.inputs.version }} https://github.com/immortalwrt/immortalwrt.git
+          git clone --depth 1 -b ${{ github.event.inputs.version }} https://github.com/VIKINGYFY/immortalwrt
 
       - name: Apply 107M layout DTS
         run: |
